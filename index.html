@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>My Shopping List</title>
+</head>
+
+<body>
+	
+	<div class = "container-fluid">
+		
+		<div class = "row content">
+			<div class = "title col-md-12 col-s-12 col-xs-12">
+				<h3 class="text-center text-uppercase">My Shopping List</h3>
+			</div>
+		</div>
+
+		<div class = "row">
+			<div class = "shoppingList col-md-offset-3 col-md-6 col-md-offset-3 col-s-offset-4 col-s-4 col-s-offset-4 col-xs-offset-3 col-xs-6 col-xs-offset-3">
+				
+				<div class = "row">
+					<div class = "userInput col-md-12 col-s-12 col-xs-12">
+						<input type = "text" class = "text-center input-lg form-control" name = "userInput" placeholder="[ Type item to be added to the list and press Enter ]">
+					</div>
+				</div>
+				
+				<div class="row">
+						
+					<ul>
+						<li class="listItem">
+							<label><input type="checkbox" class="checkbox">Apples</label>
+							<span>☆</span>
+						</li>
+
+						<li class="listItem">
+							<label><input type="checkbox" class="checkbox">Oranges</label>
+							<span>☆</span>
+						</li>
+
+						<li class="listItem">
+							<label><input type="checkbox" class="checkbox" value="delete">Bananas</label>
+							<span>☆</span>
+						</li>
+
+					</ul>
+				</div>
+			
+			</div>
+			
+		</div>
+	
+	</div>
+	
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</html>
