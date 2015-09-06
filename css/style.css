@@ -14,7 +14,7 @@ body {
 
 .title {
 	background-color: #CD3333;
-	opacity: 0.8;
+	opacity: 0.9;
 	height: 5rem;
 }
 
@@ -36,6 +36,7 @@ h3 {
 .userInput {
 	margin-top: 1rem;
 	margin-bottom: 4rem;
+	opacity: 0.8;
 }
 
 input[type="text"] {
@@ -66,6 +67,7 @@ input:-ms-input-placeholder {
 
 .listItem {
 	background-color: white;
+	opacity: 0.8;
 	border-radius: 0.3rem;
 	margin-left: -2.2rem;
 	margin-right: 1.8rem;
@@ -92,9 +94,6 @@ li span {
 	position: relative;
 	top: 20%;
 	right: 10%;
+	cursor: pointer;
 }
 
-li span:hover:before {
-	content: "\2605";
-	position: absolute;
-}
